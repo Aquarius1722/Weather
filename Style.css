@@ -466,18 +466,15 @@ min-width: 120px;
     display: flex;
 }
 
-/* ============================================
+    "/* ============================================
    MOBILE RESPONSIVENESS - ALL PHONE SIZES
    ============================================ */
-
 /* Large phones and below */
 @media (max-width: 768px) {
   .wrapper {
+    width: 100%;
     padding: 16px;
     gap: 18px;
-  }
-  .header h1 {
-    font-size: 36px;
   }
   .inline {
     width: 100%;
@@ -487,6 +484,9 @@ min-width: 120px;
   .today {
     font-size: 32px;
     margin: 15px;
+  }
+  .header h1 {
+    font-size: 36px;
   }
   .content {
     flex-direction: column;
@@ -508,6 +508,7 @@ min-width: 120px;
   }
   .hour {
     width: 100%;
+    box-sizing: border-box;
   }
   .space {
     margin-left: auto;
@@ -516,7 +517,6 @@ min-width: 120px;
     min-width: unset;
   }
 }
-
 /* Medium phones */
 @media (max-width: 480px) {
   .wrapper {
@@ -556,7 +556,6 @@ min-width: 120px;
     max-width: 100%;
   }
 }
-
 /* Small phones (iPhone SE, Galaxy S small) */
 @media (max-width: 375px) {
   .wrapper {
@@ -600,7 +599,6 @@ min-width: 120px;
     padding: 10px;
   }
 }
-
 /* Extra small phones (iPhone 5/SE 1st gen, 320px) */
 @media (max-width: 320px) {
   .header h1 {
