@@ -368,7 +368,7 @@ input{
     /* background: rgba(255,255,255,0.08); */
     padding:12px; 
     border-radius:10px;
-    margin:  30PX 5PX;
+    margin:  25PX 5PX;
 
 }
 .space{
@@ -462,3 +462,4 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
