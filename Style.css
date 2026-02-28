@@ -113,13 +113,33 @@
     width: 45%;
   }
   .hour {
-    justify-content:center;
-    padding:16px;
-    height:360px;
-    width: 100%;
-    box-sizing: border-box;
-    margin:30px 5px;
-  }
+  width: 100%;
+  padding: 14px 18px;          /* More inner spacing */
+  margin-bottom: 14px;         /* Space between rows */
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.05);
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+}
+
+.hour img {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.hour span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hour:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
   .space {
     margin-left: auto;
   }
@@ -662,6 +682,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
