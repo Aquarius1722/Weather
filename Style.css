@@ -631,12 +631,12 @@ input{
     vertical-align: middle;
 }
 .context{
-
-display: none;
+    display: none;
 position: relative;
 min-width: 120px;
 }
 .menu-dropdown{
+    display:none;
     position: absolute;
     top: 10px;
     right: 0px;
@@ -705,6 +705,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
