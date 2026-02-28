@@ -1,38 +1,25 @@
-/* ===============================
-   RESET (All Devices)
-================================= */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+/* ===================== MEDIA QUERIES ===================== */
+
+/* Extra small phones: max-width 360px */
+@media (max-width: 360px) {
+  .app-container {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .hourly-item {
+    min-width: 60px;
+  }
 }
 
-/* ===============================
- 
-/* =======================================
-   📱 MEDIUM PHONES (361px – 400px)
-========================================= */
-@media (max-width: 400px) {
-
-  .app-container {
-    padding: 18px;
-    gap: 18px;
-  }
-
-  .current-weather {
-    gap: 10px;
-  }
-
-  .weather-details {
-    gap: 8px;
-  }
-
-  .daily-forecast {
-    gap: 12px;
-  }
-
+/* Small phones: max-width 480px */
+@media (max-width: 480px) {
+  .current-weather,
+  .weather-details,
+  .daily-forecast,
   .hourly-forecast {
-    gap: 15px;
+    flex-direction: column; /* Force vertical layout */
   }
 
   .hourly-item {
@@ -40,39 +27,34 @@
   }
 }
 
-
-/* =======================================
-   📱 SMALL PHONES (320px – 360px)
-========================================= */
-@media (max-width: 360px) {
-
+/* Medium phones / small tablets: max-width 768px */
+@media (max-width: 768px) {
   .app-container {
-    padding: 15px;
-    gap: 15px;
-  }
-
-  .current-weather {
-    gap: 8px;
-  }
-
-  .weather-details {
-    gap: 6px;
-  }
-
-  .daily-forecast {
-    gap: 10px;
+    padding: 18px;
   }
 
   .daily-item {
-    font-size: 14px;
-  }
-
-  .hourly-forecast {
-    gap: 12px;
+    flex-direction: column; /* Daily items stacked vertically */
+    align-items: flex-start;
+    gap: 5px;
   }
 
   .hourly-item {
-    min-width: 55px;
-    font-size: 13px;
+    min-width: 70px;
+  }
+}
+
+/* Large tablets: max-width 1024px */
+@media (max-width: 1024px) {
+  .app-container {
+    padding: 20px;
+  }
+
+  .daily-item {
+    flex-direction: row;
+  }
+
+  .hourly-item {
+    min-width: 75px;
   }
 }
