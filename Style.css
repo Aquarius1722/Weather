@@ -324,7 +324,6 @@ input{
     width:100px;
     height: 160px;
     border-radius: 20px;
-    gap:30px;
 
 }
 
@@ -461,6 +460,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
