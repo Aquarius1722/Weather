@@ -40,24 +40,30 @@
 
 
 body{
+::before, *::after {
+    box-sizing: border-box;
+}
+body{
     margin:0;
     font-family: Arial, sans-serif;
-    /* background: linear-gradient(135deg,#0f0c29,#1a1446,#0c0b2b); */
     background: #02012b;
     color:white;
     display:flex;
     justify-content:center;
     align-items:center;
     min-height:100vh;
+    overflow-x: hidden;
 }
-
 /* MAIN WRAPPER */
-.wrapper{
+
+    .wrapper{
     width:1200px;
+    max-width: 100%;
     display:flex;
     flex-direction:column;
     gap:40px;
-}
+    padding: 0 16px;
+    }
 
 /* HEADER */
 .header{
@@ -71,12 +77,14 @@ button{
     font-size:40px;
     margin-bottom:20px;
 }
-.inline{
+
+    .inline{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1450px;
-}
+    width: 100%;
+    max-width: 1450px;
+    }
 .today{
     padding: 5px;
     margin: 30px;
@@ -615,3 +623,4 @@ min-width: 120px;
     gap: 5px;
   }
 }
+
