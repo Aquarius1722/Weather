@@ -127,15 +127,7 @@
   box-sizing: border-box;
 }
 
-.hour img {
-  width: 40px;
-  height: 40px;
-  margin-right: 12px;
-}
 
-.hour:hover {
-  background: rgba(255, 255, 255, 0.08);
-}
   .space {
     margin-left: auto;
   }
@@ -238,21 +230,6 @@
   justify-content: space-between;
 
   box-sizing: border-box;
-}
-
-.hour img {
-  width: 40px;
-  height: 40px;
-  margin-right: 12px;
-}
-
-.hour span {
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.hour:hover {
-  background: rgba(255, 255, 255, 0.08);
 }
 }
 
@@ -700,6 +677,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
