@@ -37,8 +37,6 @@
     font-family: "Anothertype1";
     src: url(assets/fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf) format(truetype);
 }
-
-
 body{
     margin:0;
     font-family: Arial, sans-serif;
@@ -339,7 +337,6 @@ input{
     margin-bottom: 5px;
 }
 .button{
-    display:none;
     background: #25253f;
     right: 80px;
     font-size: 12px;
@@ -465,126 +462,3 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
-
-/* ============================================
-   MOBILE RESPONSIVENESS - ALL PHONE SIZES=========== */
-
-/
-   =================================* Large phones and below */
-@media (max-width: 768px) {
-  .wrapper {
-    padding: px;
-  }
-  .header16px;
-    gap: 18 h1 {
-    font-size: 36px;
-  }
-  .content {
-    flex-direction: column;
-  }
-  .right {
-    min-width: unset;
-    max-height: none;
-  }
-  .daily-row {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-
-/* Medium phones */
-@media (max-width: 480px) {
-  .wrapper {
-    padding: px;
-  }
-  .header14px;
-    gap: 16: 32px;
-  }
-  .big-temp {
-    font h1 {
-    font-size-size: 60px;
-  }
-  .city {
-    padding: 24px 18px;
-    border-radius: 24px;
-  }
-  .detail-size: 24px;
-  }
- strong {
-    font  .daily-row {
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  .day-card {
-    padding: 12pxday-card span img 6px 8px;
-  }
-  . {
-    width: 30px;
-    height: 30px;
-  }
-  .search-box input,
-  .search-box button {
-    max-width: 100%;
-  }
-}
-
-/* Small phones (iPhone SE, Galaxy (max-width: 375 S small) */
-@media {
-    padding: px) {
-  .wrapper12px;
-    gap: 14px;
-  }
-  .header h1 {
-    font-size-temp {
-    font: 28px;
-  }
-  .big-size: 52px;
-  }
-  .city {
-    font-size: 18px;
-  }
-  .detail {
-    padding: 12px 14px;
-  }
-  .detail strong {
-    font-size: 22px;
-  }
-  .daily-row {
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-  .day-card {
-    padding: 10px 4px 6px;
-: 14px;
-  }
-  .day    border-radius-name {
-    font-size: 12px;
-  }
-  .temps {
-    font gap: 6px;
-  }
- -size: 11px;
-    .hour {
-    padding  .right {
-    padding: 10px 12px;
-  }
-: 14px;
-  }
-}
-
-/* Extra small phones (iPhone 5/SE 1st gen, 320px) */
-@media (max-width: 320px) {
-  .header h1 {
-    font-size: 24px;
-  }
-  .big-temp {
-    font-size: 46px;
-  }
-  .detail strong {
-    font-size-row {
-    flex-wrap: 20px;
-  }
-  .daily: wrap;
-    gap: 5px;
-  }
-    }
