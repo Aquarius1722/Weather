@@ -40,7 +40,20 @@
 
 
 
-/* Mobile Responsiveness */
+/* BASE FIXES */
+.inline {
+    display: flex;
+    flex-wrap: wrap; /* allow stacking on smaller screens */
+    justify-content: space-between;
+    width: 100%; /* was fixed 1450px */
+}
+
+.units-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* MOBILE RESPONSIVENESS */
 @media screen and (max-width: 1024px) {
     .wrapper {
         width: 95%;
@@ -49,12 +62,11 @@
 
     .inline {
         flex-direction: column;
-        width: 100%;
         gap: 20px;
     }
 
     .today {
-        font-size: 36px;
+        font-size: 32px;
         margin: 20px 0;
         text-align: center;
     }
@@ -64,13 +76,9 @@
         align-items: center;
     }
 
-    .search-box input {
-        width: 90%;
-    }
-
+    .search-box input,
     .search-box button {
         width: 90%;
-        margin-top: 10px;
     }
 
     .content {
@@ -78,7 +86,8 @@
         gap: 20px;
     }
 
-    .left, .right {
+    .left,
+    .right {
         width: 100%;
     }
 
@@ -95,7 +104,7 @@
     }
 
     .day-card {
-        width: 100px;
+        width: 90px;
         height: 140px;
         padding: 20px 10px;
     }
@@ -153,7 +162,7 @@
     }
 }
 
-/* Extra small phones */
+/* EXTRA SMALL PHONES */
 @media screen and (max-width: 480px) {
     .today {
         font-size: 28px;
@@ -175,7 +184,8 @@
         padding: 8px;
     }
 
-    .search-box input, .search-box button {
+    .search-box input,
+    .search-box button {
         width: 95%;
     }
 }
@@ -605,6 +615,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
