@@ -466,18 +466,17 @@ min-width: 120px;
     display: flex;
 }
 
-
 /* ============================================
-   MOBILE RESPONSIVENESS - ALL PHONE SIZES
-   ============================================ */
+   MOBILE RESPONSIVENESS - ALL PHONE SIZES=========== */
 
-/* Large phones and below */
+/
+   =================================* Large phones and below */
 @media (max-width: 768px) {
   .wrapper {
-    padding: 16px;
-    gap: 18px;
+    padding: px;
   }
-  .header h1 {
+  .header16px;
+    gap: 18 h1 {
     font-size: 36px;
   }
   .content {
@@ -496,30 +495,30 @@ min-width: 120px;
 /* Medium phones */
 @media (max-width: 480px) {
   .wrapper {
-    padding: 14px;
-    gap: 16px;
+    padding: px;
   }
-  .header h1 {
-    font-size: 32px;
+  .header14px;
+    gap: 16: 32px;
   }
   .big-temp {
-    font-size: 60px;
+    font h1 {
+    font-size-size: 60px;
   }
   .city {
     padding: 24px 18px;
     border-radius: 24px;
   }
-  .detail strong {
-    font-size: 24px;
+  .detail-size: 24px;
   }
-  .daily-row {
+ strong {
+    font  .daily-row {
     flex-wrap: wrap;
     gap: 8px;
   }
   .day-card {
-    padding: 12px 6px 8px;
+    padding: 12pxday-card span img 6px 8px;
   }
-  .day-card span img {
+  . {
     width: 30px;
     height: 30px;
   }
@@ -529,17 +528,17 @@ min-width: 120px;
   }
 }
 
-/* Small phones (iPhone SE, Galaxy S small) */
-@media (max-width: 375px) {
-  .wrapper {
-    padding: 12px;
+/* Small phones (iPhone SE, Galaxy (max-width: 375 S small) */
+@media {
+    padding: px) {
+  .wrapper12px;
     gap: 14px;
   }
   .header h1 {
-    font-size: 28px;
+    font-size-temp {
+    font: 28px;
   }
-  .big-temp {
-    font-size: 52px;
+  .big-size: 52px;
   }
   .city {
     font-size: 18px;
@@ -556,20 +555,20 @@ min-width: 120px;
   }
   .day-card {
     padding: 10px 4px 6px;
-    border-radius: 14px;
+: 14px;
   }
-  .day-name {
+  .day    border-radius-name {
     font-size: 12px;
   }
   .temps {
-    font-size: 11px;
-    gap: 6px;
+    font gap: 6px;
   }
-  .hour {
+ -size: 11px;
+    .hour {
+    padding  .right {
     padding: 10px 12px;
   }
-  .right {
-    padding: 14px;
+: 14px;
   }
 }
 
@@ -582,23 +581,10 @@ min-width: 120px;
     font-size: 46px;
   }
   .detail strong {
-    font-size: 20px;
+    font-size-row {
+    flex-wrap: 20px;
   }
-  .daily-row {
-    flex-wrap: wrap;
+  .daily: wrap;
     gap: 5px;
   }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
