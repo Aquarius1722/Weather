@@ -113,7 +113,7 @@
     width: 45%;
   }
   .hour {
-  height:90px;
+  height:100%;
   width: 100%;
   padding: 14px 18px;          /* More inner spacing */
   margin-bottom: 14px;         /* Space between rows */
@@ -683,6 +683,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
