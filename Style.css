@@ -467,58 +467,87 @@ min-width: 120px;
 }
 
 /* ============================================
-   MOBILE RESPONSIVENESS - ALL PHONE SIZES=========== */
+   MOBILE RESPONSIVENESS - ALL PHONE SIZES
+   ============================================ */
 
-/
-   =================================* Large phones and below */
+/* Large phones and below */
 @media (max-width: 768px) {
   .wrapper {
-    padding: px;
+    padding: 16px;
+    gap: 18px;
   }
-  .header16px;
-    gap: 18 h1 {
+  .header h1 {
     font-size: 36px;
+  }
+  .inline {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .today {
+    font-size: 32px;
+    margin: 15px;
   }
   .content {
     flex-direction: column;
   }
   .right {
     min-width: unset;
-    max-height: none;
+    height: auto;
   }
   .daily-row {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .details {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .search-box input {
+    width: 100%;
+  }
+  .hour {
+    width: 100%;
+  }
+  .space {
+    margin-left: auto;
+  }
+  .box {
+    min-width: unset;
   }
 }
 
 /* Medium phones */
 @media (max-width: 480px) {
   .wrapper {
-    padding: px;
+    padding: 14px;
+    gap: 16px;
   }
-  .header14px;
-    gap: 16: 32px;
+  .header h1 {
+    font-size: 32px;
   }
   .big-temp {
-    font h1 {
-    font-size-size: 60px;
+    font-size: 60px;
   }
   .city {
     padding: 24px 18px;
     border-radius: 24px;
   }
-  .detail-size: 24px;
+  .detail {
+    width: 140px;
+    height: auto;
   }
- strong {
-    font  .daily-row {
+  .detail strong {
+    font-size: 24px;
+  }
+  .daily-row {
     flex-wrap: wrap;
     gap: 8px;
   }
   .day-card {
-    padding: 12pxday-card span img 6px 8px;
+    padding: 12px 6px 8px;
   }
-  . {
+  .day-card span img {
     width: 30px;
     height: 30px;
   }
@@ -528,20 +557,20 @@ min-width: 120px;
   }
 }
 
-/* Small phones (iPhone SE, Galaxy (max-width: 375 S small) */
-@media {
-    padding: px) {
-  .wrapper12px;
+/* Small phones (iPhone SE, Galaxy S small) */
+@media (max-width: 375px) {
+  .wrapper {
+    padding: 12px;
     gap: 14px;
   }
   .header h1 {
-    font-size-temp {
-    font: 28px;
+    font-size: 28px;
   }
-  .big-size: 52px;
+  .big-temp {
+    font-size: 52px;
   }
   .city {
-    font-size: 18px;
+    padding: 18px 14px;
   }
   .detail {
     padding: 12px 14px;
@@ -555,20 +584,20 @@ min-width: 120px;
   }
   .day-card {
     padding: 10px 4px 6px;
-: 14px;
+    border-radius: 14px;
   }
-  .day    border-radius-name {
+  .day-name {
     font-size: 12px;
   }
   .temps {
-    font gap: 6px;
+    font-size: 11px;
+    gap: 6px;
   }
- -size: 11px;
-    .hour {
-    padding  .right {
+  .right {
     padding: 10px 12px;
   }
-: 14px;
+  .hour {
+    padding: 10px;
   }
 }
 
@@ -581,10 +610,10 @@ min-width: 120px;
     font-size: 46px;
   }
   .detail strong {
-    font-size-row {
-    flex-wrap: 20px;
+    font-size: 20px;
   }
-  .daily: wrap;
+  .daily-row {
+    flex-wrap: wrap;
     gap: 5px;
   }
-    }
+}
