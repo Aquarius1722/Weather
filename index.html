@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather UI</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <!-- TOP HEADER -->
+    <div class="header">
+        <div class="inline">
+         <h1><img src="assets/images/logo.svg" alt="logo svg"></h1>
+
+        <div class="units-dropdown">
+            <button class="dropdown-btn">Units ▾</button>
+            <div class="dropdown-content">
+              <div class="dropdown-section">
+                <span class="section-title">Temperature</span>
+                <label class="option">
+                  <input type="checkbox" name="temp" checked>
+                  <span class="option-text">Celsius (°C)</span>
+                  <span class="checkmark">✔</span>
+                </label>
+                <label class="option divider">
+                  <input type="checkbox" name="temp">
+                  <span class="option-text">Fahrenheit (°F)</span>
+                </label>
+              </div>
+              <div class="dropdown-section">
+                <span class="section-title">Wind Speed</span>
+                <label class="option">
+                  <input type="checkbox" name="wind" checked>
+                  <span class="option-text">km/h</span>
+                  <span class="checkmark">✔</span>
+                </label>
+                <label class="option divider">
+                  <input type="checkbox" name="wind">
+                  <span class="option-text">mph</span>
+
+                </label>
+              </div>
+              <div class="dropdown-section">
+                <span class="section-title">Precipitation</span>
+                <label class="option">
+                  <input type="checkbox" name="precip" checked>
+                  <span class="option-text">millimeters (mm)</span>
+                  <span class="checkmark">✔</span>
+                </label>
+                <label class="option">
+                  <input type="checkbox" name="precip">
+                  <span class="option-text">inches (in)</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="today"> How's the sky looking today?</div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search for a city...">
+            <button>Search</button>
+        </div>
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+    <div class="content">
+
+        <!-- LEFT -->
+        <div class="left">
+           
+            <!-- Current Weather -->
+            <div class="city">
+                <div class="current">
+                    <div>
+                        <h2>Berlin, Germany</h2>
+                        <p class="light">Tuesday, Aug 5, 2025</p>
+                    </div>
+
+                    <div class="big-temp">☀️ 20°</div>
+                </div>
+            </div>
+            <div class="details">
+                <div class="detail">Feels Like<br><strong>64°</strong></div>
+                <div class="detail">Humidity<br><strong>46%</strong></div>
+                <div class="detail">Wind<br><strong> 9mph</strong></div>
+                <div class="detail">Precipitation<br><strong>0 in</strong></div>
+            </div>
+
+            <!-- Daily Forecast (ROW) -->
+            <div class="glass">
+                <h3>Daily Forecast</h3>
+
+                <div class="daily-row">
+                    <div class="day-card">
+                        <span class="day-name">Tue</span> 
+                        <span>
+                            <img src="assets/images/icon-rain.webp" alt=""></span> 
+                            <div class="temps">
+                                <span class="temp high">68° </span>
+                        <span class="temp low"> 57°</span>
+                    </div>
+
+                    </div>
+                    <div class="day-card">
+                           <span class="day-name">Wed</span> 
+                           <span><img src="assets/images/icon-drizzle.webp" alt=""></span> 
+                            <div class="temps">
+                            <span class="temp high">70°</span>
+                            <span class="temp low"> 59°</span>
+                    </div>
+
+                    </div>
+                    <div class="day-card">
+                        <span class="day-name">Thur</span> 
+                        <span>
+                            <img src="assets/images/icon-sunny.webp" alt=""></span> 
+                         <div class="temps">
+                            <span class="temp high">75° </span>
+                           <span class="temp high"> 57°</span>
+                         </div>
+                    </div>
+                    <div class="day-card">
+                        <span class="day-name">Fri</span> 
+                        <span> 
+                            <img src="assets/images/icon-partly-cloudy.webp" alt=""></span>
+                            <div class="temps">
+                            <span class="temp high">77° </span>
+                            <span class="temp low"> 55°</span>
+                    </div>
+                    </div>
+                    <div class="day-card">
+                        <span class="day-name">Sat</span> 
+                        <span> 
+                            <img src="assets/images/icon-storm.webp" alt=""></span>
+                            <div class="temps">
+                        <span class="temp high">70° </span>
+                        <span class="temp low">59°</span>
+                    </div> 
+                    </div>
+                    <div class="day-card">
+                        <span class="day-name">Sun</span> 
+                        <span>
+                             <img src="assets/images/icon-snow.webp" alt=""></span> 
+                             <div class="temps">
+                        <span class="temp high">77° </span>
+                        <span class="temp low">61°</span>
+                    </div>
+
+                    </div>
+                    <div class="day-card">
+                        <span class="day-name">Mon</span>
+                        <span>
+                            <img src="assets/images/icon-fog.webp" alt=""></span> 
+                            <div class="temps">
+                        <span class="temp high">75°</span>
+                        <span class="temp low"> 59°</span>
+                    </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDEBAR -->
+        <div class="right">
+          <div class="box">
+            <h3>Hourly Forecast</h3>
+            <div class="menu-dropdown">
+                <button class="button">Tuesday</button>
+                <div class="context">
+                    <a href="#"> Monday</a>
+                    <a href="#">Tuesday</a>
+                    <a href="#">Wednesday</a>
+                    <a href="#">Thursday</a>
+                    <a href="#">Friday</a>
+                    <a href="#">Saturday</a>
+                    <a href="#">Sunday</a>
+                  </div>
+                </div>
+            </div>
+            <div class="hour">
+               <img src="assets/images/icon-storm.webp" alt=""> 
+               <span>4 PM</span> <span class="space">68°</span></div>
+            <div class="hour">
+               <img src="assets/images/icon-partly-cloudy.webp" alt=""> 
+               <span>3 PM</span> <span  class="space"> 68°</span></div>
+            <div class="hour">
+               <img src="assets/images/icon-sunny.webp" alt=""> 
+               <span>5 PM</span> <span class="space">68°</span></div>
+            <div class="hour">
+               <img src="assets/images/icon-rain.webp" alt=""> 
+               <span>6 PM</span> <span class="space">66°</span></div>
+            <div class="hour">
+               <img src="assets/images/icon-snow.webp" alt=""> 
+               <span>7 PM</span> <span class="space">66°</span></div>
+            <div class="hour">
+               <img src="assets/images/icon-fog.webp" alt=""> 
+               <span>8 PM</span> <span class="space">64°</span></div>
+            <div class="hour">
+               <img src="assets/images/icon-snow.webp" alt=""> 
+               <span>9 PM</span> <span class="space">63°</span></div>
+            <div class="hour">
+               <img src="assets/images/icon-sunny.webp" alt=""> 
+               <span>10 PM</span ><span class="space">63°</span></div>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    // Ensure only one option per category is checked
+    document.querySelectorAll('.dropdown-section').forEach(section => {
+      const checkboxes = section.querySelectorAll('input[type="checkbox"]');
+      checkboxes.forEach(box => {
+        box.addEventListener('change', () => {
+          if (box.checked) {
+            checkboxes.forEach(other => {
+              if (other !== box) other.checked = false;
+            });
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
