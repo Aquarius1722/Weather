@@ -112,19 +112,6 @@
   .detail {
     width: 45%;
   }
-  .hour {
-  height: 90px;
-  width: 100%;
-  padding: 14px 18px;          /* More inner spacing */
-  margin: 38px 6px;         /* Space between rows */
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.05);
-  
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 
   .space {
     margin-left: auto;
@@ -215,20 +202,7 @@
   .right {
     padding: 10px 12px;
   }
-  .hour {
-  height: 31px;
-  width: 100%;
-  padding: 14px 18px;          /* More inner spacing */
-  margin: 38px 6px;         /* Space between rows */
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.05);
-  
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 
-  box-sizing: border-box;
-}
 }
 
 /* Extra small phones (iPhone 5/SE 1st gen, 320px) */
@@ -675,6 +649,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
