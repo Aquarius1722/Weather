@@ -39,6 +39,11 @@
 }
 
 
+/* ============================================
+   MOBILE RESPONSIVENESS - ALL PHONE SIZES
+   ============================================ */
+
+/* Large phones and below */
 @media (max-width: 768px) {
   .wrapper {
     width: 100% !important;
@@ -119,6 +124,7 @@
     width: 100%;
   }
 }
+    
 
 /* Medium phones */
 @media (max-width: 480px) {
@@ -153,6 +159,74 @@
   .day-card span img {
     width: 30px;
     height: 30px;
+  }
+  .search-box input,
+  .search-box button {
+    max-width: 100%;
+  }
+}
+
+/* Small phones (iPhone SE, Galaxy S small) */
+@media (max-width: 375px) {
+  .wrapper {
+    padding: 12px;
+    gap: 14px;
+  }
+  .header h1 {
+    font-size: 28px;
+  }
+  .big-temp {
+    font-size: 52px;
+  }
+  .city {
+    padding: 18px 14px;
+  }
+  .detail {
+    padding: 12px 14px;
+  }
+  .detail strong {
+    font-size: 22px;
+  }
+  .daily-row {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .day-card {
+    padding: 10px 4px 6px;
+    border-radius: 14px;
+  }
+  .day-name {
+    font-size: 12px;
+  }
+  .temps {
+    font-size: 11px;
+    gap: 6px;
+  }
+  .right {
+    padding: 10px 12px;
+  }
+  .hour {
+    padding: 10px;
+  }
+}
+
+/* Extra small phones (iPhone 5/SE 1st gen, 320px) */
+@media (max-width: 320px) {
+  .header h1 {
+    font-size: 24px;
+  }
+  .big-temp {
+    font-size: 46px;
+  }
+  .detail strong {
+    font-size: 20px;
+  }
+  .daily-row {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
+
 
 body{
     margin:0;
@@ -579,6 +653,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
