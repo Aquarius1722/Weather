@@ -37,6 +37,160 @@
     font-family: "Anothertype1";
     src: url(assets/fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf) format(truetype);
 }
+
+
+/* ============================================
+   MOBILE RESPONSIVENESS - ALL PHONE SIZES
+   ============================================ */
+
+/* Large phones and below */
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 16px;
+    gap: 18px;
+  }
+  .header h1 {
+    font-size: 36px;
+  }
+  .inline {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .today {
+    font-size: 32px;
+    margin: 15px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .right {
+    min-width: unset;
+    height: auto;
+  }
+  .daily-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .details {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .search-box input {
+    width: 100%;
+  }
+  .hour {
+    width: 100%;
+  }
+  .space {
+    margin-left: auto;
+  }
+  .box {
+    min-width: unset;
+  }
+}
+
+/* Medium phones */
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 14px;
+    gap: 16px;
+  }
+  .header h1 {
+    font-size: 32px;
+  }
+  .big-temp {
+    font-size: 60px;
+  }
+  .city {
+    padding: 24px 18px;
+    border-radius: 24px;
+  }
+  .detail {
+    width: 140px;
+    height: auto;
+  }
+  .detail strong {
+    font-size: 24px;
+  }
+  .daily-row {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .day-card {
+    padding: 12px 6px 8px;
+  }
+  .day-card span img {
+    width: 30px;
+    height: 30px;
+  }
+  .search-box input,
+  .search-box button {
+    max-width: 100%;
+  }
+}
+
+/* Small phones (iPhone SE, Galaxy S small) */
+@media (max-width: 375px) {
+  .wrapper {
+    padding: 12px;
+    gap: 14px;
+  }
+  .header h1 {
+    font-size: 28px;
+  }
+  .big-temp {
+    font-size: 52px;
+  }
+  .city {
+    padding: 18px 14px;
+  }
+  .detail {
+    padding: 12px 14px;
+  }
+  .detail strong {
+    font-size: 22px;
+  }
+  .daily-row {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .day-card {
+    padding: 10px 4px 6px;
+    border-radius: 14px;
+  }
+  .day-name {
+    font-size: 12px;
+  }
+  .temps {
+    font-size: 11px;
+    gap: 6px;
+  }
+  .right {
+    padding: 10px 12px;
+  }
+  .hour {
+    padding: 10px;
+  }
+}
+
+/* Extra small phones (iPhone 5/SE 1st gen, 320px) */
+@media (max-width: 320px) {
+  .header h1 {
+    font-size: 24px;
+  }
+  .big-temp {
+    font-size: 46px;
+  }
+  .detail strong {
+    font-size: 20px;
+  }
+  .daily-row {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
+
 body{
     margin:0;
     font-family: Arial, sans-serif;
@@ -462,4 +616,5 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
