@@ -1,0 +1,78 @@
+/* ===============================
+   RESET (All Devices)
+================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===============================
+ 
+/* =======================================
+   📱 MEDIUM PHONES (361px – 400px)
+========================================= */
+@media (max-width: 400px) {
+
+  .app-container {
+    padding: 18px;
+    gap: 18px;
+  }
+
+  .current-weather {
+    gap: 10px;
+  }
+
+  .weather-details {
+    gap: 8px;
+  }
+
+  .daily-forecast {
+    gap: 12px;
+  }
+
+  .hourly-forecast {
+    gap: 15px;
+  }
+
+  .hourly-item {
+    min-width: 65px;
+  }
+}
+
+
+/* =======================================
+   📱 SMALL PHONES (320px – 360px)
+========================================= */
+@media (max-width: 360px) {
+
+  .app-container {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .current-weather {
+    gap: 8px;
+  }
+
+  .weather-details {
+    gap: 6px;
+  }
+
+  .daily-forecast {
+    gap: 10px;
+  }
+
+  .daily-item {
+    font-size: 14px;
+  }
+
+  .hourly-forecast {
+    gap: 12px;
+  }
+
+  .hourly-item {
+    min-width: 55px;
+    font-size: 13px;
+  }
+}
