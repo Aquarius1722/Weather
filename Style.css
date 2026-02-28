@@ -39,35 +39,6 @@
 }
 
 
-/* Tablet and smaller */
-@media screen and (max-width: 1024px) {
-    .wrapper {
-        width: 95%;
-        gap: 20px;
-        margin: auto; /* keeps centered */
-    }
-
-    .inline {
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
-    }
-
-    .content {
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
-    }
-
-    .left,
-    .right {
-        width: 100%;
-        min-width: auto;
-        height: auto;
-        padding: 15px;
-    }
-}
-
 /* Phones */
 @media screen and (max-width: 600px) {
     .wrapper {
@@ -611,6 +582,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
