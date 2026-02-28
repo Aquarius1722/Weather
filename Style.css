@@ -43,7 +43,6 @@
 body{
     margin:0;
     font-family: Arial, sans-serif;
-    / background: linear-gradient(135deg,#0f0c29,#1a1446,#0c0b2b); /
     background: #02012b;
     color:white;
     display:flex;
@@ -466,6 +465,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
