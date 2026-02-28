@@ -37,6 +37,9 @@
     font-family: "Anothertype1";
     src: url(assets/fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf) format(truetype);
 }
+
+/* main.css */
+@import url("mobil.css");
 body{
     margin:0;
     font-family: Arial, sans-serif;
@@ -463,5 +466,6 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
