@@ -11,13 +11,13 @@
 
 
 @font-face {
-    font-family: "MyCustomFont 4";
+    font-family: "MyCustomFont4";
     src: url(assets/fonts/DM_Sans/static/DMSans-Bold.ttf) format(truetype);
 }
 
 
 @font-face {
-    font-family: "MyCustomFont 7";
+    font-family: "MyCustomFont7";
     src: url(assets/fonts/DM_Sans/static/DMSans-Medium.ttf) format(truetype);
 }
 @font-face {
@@ -255,11 +255,13 @@ button{
     font-size:40px;
     margin-bottom:20px;
 }
-.inline{
+.inline {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1450px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
 }
 .today{
     padding: 5px;
@@ -267,7 +269,7 @@ button{
     font-family:"Anothertype1",Arial,sans-serif;
     font-size: 50px;
 }
-units-dropdown {
+.units-dropdown {
     position: relative;
     display: inline-block;
   }
@@ -340,7 +342,7 @@ units-dropdown {
     font-weight: bold;
   }
   
-  .option input:checked .checkmark {
+  .option input:checked ~ .checkmark {
     color: #0078d7; /* Show tick when checked */
   }
   
@@ -484,7 +486,7 @@ input{
 
 .big-temp{
     font-size:90px;
-    font-weight:700px;
+    font-weight:700;
     font-family: "MyCustomFont9",Arial,sans-serif;
 }
 
@@ -649,6 +651,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
