@@ -369,6 +369,7 @@ button{
 }
 
 .search-box input{
+    width:100%;
     max-width:450px;
     padding:12px;
     border-radius:12px;
@@ -662,6 +663,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
