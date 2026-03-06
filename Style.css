@@ -1,4 +1,4 @@
-@font-face {
+oo@font-face {
     font-family: "MyCustomFont";
     src: url(assets/fonts/DM_Sans/static/DMSans-Light.ttf) format(truetype);
 }
@@ -369,7 +369,7 @@ button{
 }
 
 .search-box input{
-    max-width:600px;
+    max-width:500px;
     padding:12px;
     border-radius:12px;
     border:none;
@@ -662,6 +662,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
