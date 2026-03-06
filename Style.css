@@ -546,8 +546,7 @@ input{
     border: 1px solid rgba(255, 255, 255, 0.16);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    width: 100%;              /* full width inside parent */
+    -webkit-backdrop-filter: blur(5px);           /* full width inside parent */
     width: 300px;         /* prevent it from stretching too wide */
     height: 25px;         /* taller for readability */
     display: flex;
@@ -608,6 +607,7 @@ min-width: 120px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur
+
 
 
 
