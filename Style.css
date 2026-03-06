@@ -287,7 +287,7 @@ button{
     border-radius: 4px;
     cursor: pointer;
     margin-top: 32px;
-  }
+  } 
   
   .dropdown-btn:hover {
     background-color: #005a9e;
@@ -369,7 +369,6 @@ button{
 }
 
 .search-box input{
-    width:100%;
     max-width:900px;
     padding:12px;
     border-radius:12px;
@@ -663,6 +662,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
