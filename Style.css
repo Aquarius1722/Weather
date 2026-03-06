@@ -125,6 +125,7 @@
   .search-box {
     flex-direction: column;
     width: 100%;
+    align-items:center;
   }
   .search-box input,
   .search-box button {
@@ -438,8 +439,10 @@ input{
     /* background: rgba(15 , 22, 105, 0.30); */
     /* background: rgba(255,255,255,0.15); */
     padding:10px 20px;
-    min-width: 340px;
-    height:700px;
+    margin:0;
+    width:100%;
+    max-width: 340px;
+    height:auto;
     border-radius:20px;
     position: relative;
     /* margin-bottom: 5px; */
@@ -550,6 +553,8 @@ input{
 .box{
     justify-content: center;
     min-width: 340px;
+    margin:auto;
+    text-align:center;
 }
 .hour {
     background: #2f2f49;
@@ -618,5 +623,6 @@ min-width: 120px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur
+
 
 
