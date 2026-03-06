@@ -370,7 +370,7 @@ button{
 
 .search-box input{
     width:100%;
-    max-width:500px;
+    max-width:900px;
     padding:12px;
     border-radius:12px;
     border:none;
@@ -663,6 +663,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
