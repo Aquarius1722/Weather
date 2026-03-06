@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "MyCustomFont";
     src: url(assets/fonts/DM_Sans/static/DMSans-Light.ttf) format(truetype);
@@ -12,13 +11,13 @@
 
 
 @font-face {
-    font-family: "MyCustomFont4";
+    font-family: "MyCustomFont 4";
     src: url(assets/fonts/DM_Sans/static/DMSans-Bold.ttf) format(truetype);
 }
 
 
 @font-face {
-    font-family: "MyCustomFont7";
+    font-family: "MyCustomFont 7";
     src: url(assets/fonts/DM_Sans/static/DMSans-Medium.ttf) format(truetype);
 }
 @font-face {
@@ -45,7 +44,6 @@
    ============================================ */
 
 /* Large phones and below */
-
 @media (max-width: 768px) {
   .wrapper {
     width: 100% !important;
@@ -114,10 +112,7 @@
   .detail {
     width: 45%;
   }
-  .hour {
-    width: 100%;
-    box-sizing: border-box;
-  }
+
   .space {
     margin-left: auto;
   }
@@ -126,7 +121,7 @@
     width: 100%;
   }
 }
-
+    
 
 /* Medium phones */
 @media (max-width: 480px) {
@@ -164,7 +159,7 @@
   }
   .search-box input,
   .search-box button {
-    max-width: 90%;
+    max-width: 100%;
   }
 }
 
@@ -260,15 +255,11 @@ button{
     font-size:40px;
     margin-bottom:20px;
 }
-.inline {
+.inline{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 1200px;   /* keeps it contained */
-    margin: 0 auto;      /* equal padding left/right */
-    padding: 0 20px;     /* ensures spacing on both sides */
+    width: 1450px;
 }
 .today{
     padding: 5px;
@@ -276,7 +267,7 @@ button{
     font-family:"Anothertype1",Arial,sans-serif;
     font-size: 50px;
 }
-.units-dropdown {
+units-dropdown {
     position: relative;
     display: inline-block;
   }
@@ -292,7 +283,7 @@ button{
     border-radius: 4px;
     cursor: pointer;
     margin-top: 32px;
-  } 
+  }
   
   .dropdown-btn:hover {
     background-color: #005a9e;
@@ -301,9 +292,6 @@ button{
   .dropdown-content {
     display: none;
     position: absolute;
-    right:0;
-    left:auto;
-    margin:0;
     /* background: #02012b; */
     background: rgba(2, 1, 43, 0.5);
     /* background: rgba(255, 255, 255, 0.4); */
@@ -311,8 +299,7 @@ button{
     /* box-shadow: 0px 4px 8px rgba(0,0,0,0.2); */
     /* border-radius: 2px; */
     padding: 12px;
-    
-    box-sizing: border-box;
+    z-index: 1;
   }
   
   .units-dropdown:hover .dropdown-content {
@@ -353,7 +340,7 @@ button{
     font-weight: bold;
   }
   
-  .option input:checked ~ .checkmark {
+  .option input:checked .checkmark {
     color: #0078d7; /* Show tick when checked */
   }
   
@@ -368,16 +355,11 @@ button{
     display:flex;
     justify-content:center;
     gap:10px;
-    padding:0 20px;
-    width:100%;
-    box-sizing:border-box;
 }
 
 .search-box input{
-    flex:1;
-    width:100%;
-    max-width:500px;
-    padding:12px;
+    width:400px;
+    padding:14px;
     border-radius:12px;
     border:none;
     outline:none;
@@ -429,9 +411,6 @@ input{
     background: #02012b;
     display:flex;
     gap:30px;
-    padding:0 20px;
-    box-sizing:border-box;
-
 }
 
 /* LEFT */
@@ -448,10 +427,9 @@ input{
     /* background: rgba(15 , 22, 105, 0.30); */
     /* background: rgba(255,255,255,0.15); */
     padding:10px 20px;
-    max-width: 320px;
-    height:auto;
+    min-width: 340px;
+    height:700px;
     border-radius:20px;
-    margin:0 auto;
     position: relative;
     /* margin-bottom: 5px; */
     
@@ -506,7 +484,7 @@ input{
 
 .big-temp{
     font-size:90px;
-    font-weight:700;
+    font-weight:700px;
     font-family: "MyCustomFont9",Arial,sans-serif;
 }
 
@@ -569,13 +547,15 @@ input{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    max-width:300px;
+    /* padding: 20px; */
+    width: 300px;
     height: 25px;
     justify-content: space-between;
     align-items: center;
+    /* background: rgba(255,255,255,0.08); */
     padding:12px; 
     border-radius:10px;
-    margin:  30PX auto;
+    margin:  30PX 5PX;
 
 }
 .space{
@@ -628,88 +608,4 @@ min-width: 120px;
     border: 1px solid rgba(255, 255, 255, 0.16);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    padding: 16px 25px;
-    font-size: 16px;
-    font-family: inherit;
-    border: none;
-    border-radius: 8px;
-    transition: 0.3s;
-    cursor: pointer;
-} */
-.menu-dropdown .context{
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color:rgba(255,255,255,0.1) ;
-    min-width: 160px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    z-index: -1;
-    opacity: 0;
-    border-radius: 8px;
-    transition: 0.3s;
-    flex-direction: column;
-}
-.menu-dropdown .context a{
-    display: block;
-    color:white ;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: 0.3s;
-}
-.menu-dropdown .context a:hover{
-    background: rgba(255, 255, 255, 0.2);
-}
-.menu-dropdown:hover .button{
-    background: rgba(255, 255, 255, 0.2); 
-}
-.menu-dropdown:hover .context{
-    opacity: 1;
-    z-index: 1;
-    display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    -webkit-backdrop-filter: blur
