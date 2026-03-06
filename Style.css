@@ -160,7 +160,7 @@
   }
   .search-box input,
   .search-box button {
-    max-width: 100%;
+    max-width: 90%;
   }
 }
 
@@ -665,6 +665,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
