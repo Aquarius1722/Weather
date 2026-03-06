@@ -442,7 +442,6 @@ input{
     /* background: rgba(15 , 22, 105, 0.30); */
     /* background: rgba(255,255,255,0.15); */
     padding:10px 20px;
-    width:100%;
     max-width: 320px;
     height:auto;
     border-radius:20px;
@@ -566,14 +565,13 @@ input{
     -webkit-backdrop-filter: blur(5px);
     display:flex;
     width: 100%;
-    max-width:260px;
+    max-width:280px;
     height: 25px;
     justify-content: space-between;
     align-items: center;
-    box-sizing:border-box;
     padding:12px; 
     border-radius:10px;
-    margin:  15PX auto;
+    margin:  20PX auto;
 
 }
 .space{
@@ -667,6 +665,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
