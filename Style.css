@@ -442,9 +442,11 @@ input{
     /* background: rgba(15 , 22, 105, 0.30); */
     /* background: rgba(255,255,255,0.15); */
     padding:10px 20px;
-    min-width: 340px;
-    height:700px;
+    width:100%;
+    max-width: 320px;
+    height:auto;
     border-radius:20px;
+    margin:0 auto;
     position: relative;
     /* margin-bottom: 5px; */
     
@@ -564,14 +566,14 @@ input{
     -webkit-backdrop-filter: blur(5px);
     display:flex;
     width: 100%;
-    max-width:280px;
+    max-width:260px;
     height: 25px;
     justify-content: space-between;
     align-items: center;
     box-sizing:border-box;
     padding:12px; 
     border-radius:10px;
-    margin:  20PX auto;
+    margin:  15PX auto;
 
 }
 .space{
@@ -665,6 +667,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
