@@ -120,18 +120,7 @@
     min-width: unset;
     width: 100%;
   }
-    /* Inside your mobile responsiveness section */
 
-  .search-box {
-    flex-direction: column;
-    width: 100%;
-    align-items:center;
-  }
-  .search-box input,
-  .search-box button {
-    width: 100% !important;   /* same width for both */
-    max-width: 100% !important;
-  }
 }
     
 
@@ -619,6 +608,7 @@ min-width: 120px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur
+
 
 
 
