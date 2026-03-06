@@ -555,7 +555,6 @@ input{
     padding: 12px 16px;
     border-radius: 12px;
     margin: 30px 5px;
-    text-align:center;
 }
 .space{
     margin-left: 165px;
@@ -608,6 +607,7 @@ min-width: 120px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur
+
 
 
 
