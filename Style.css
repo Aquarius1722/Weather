@@ -45,6 +45,7 @@
    ============================================ */
 
 /* Large phones and below */
+
 @media (max-width: 768px) {
   .wrapper {
     width: 100% !important;
@@ -113,7 +114,10 @@
   .detail {
     width: 45%;
   }
-
+  .hour {
+    width: 100%;
+    box-sizing: border-box;
+  }
   .space {
     margin-left: auto;
   }
@@ -122,7 +126,7 @@
     width: 100%;
   }
 }
-    
+
 
 /* Medium phones */
 @media (max-width: 480px) {
@@ -665,6 +669,7 @@ min-width: 120px;
     z-index: 1;
     display: flex;
 }
+
 
 
 
