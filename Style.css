@@ -567,7 +567,6 @@ input{
 }
 .hour span{
     margin-top:10px;
-    display: block;
     /*align-items: center;*/
     width:100%;
     /* gap: 6px; */
@@ -614,6 +613,7 @@ min-width: 120px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur
+
 
 
 
