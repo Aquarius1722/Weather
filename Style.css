@@ -303,39 +303,24 @@ button{
     background-color: #005a9e;
   }
   
- /* .dropdown-content {
+  .dropdown-content {
     display: none;
     position: absolute;
-    /* background: #02012b; */
+    background: #02012b;
     /*background: rgba(2, 1, 43, 0.5);
     /* background: rgba(255, 255, 255, 0.4); */
-   /* min-width: 220px;
+    min-width: 220px;
     top:100%;
-    right:auto;
-    left:0;
-    margin:0;*/
+    right:0;
+    left:auto;
+    margin:0;
     /* box-shadow: 0px 4px 8px rgba(0,0,0,0.2); */
     /* border-radius: 2px; */
-   /* width:auto;
-    max-content:100%;
+    width:auto;
+    max-width:100%;
     padding: 12px;
     z-index: 999;
-  }*/
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;              /* directly below button */
-    left: auto;                /* align to left edge */
-    right: 0;            /* prevent right-side clipping */
-    margin: 0;
-    padding: 12px;
-    min-width: 220px;
-    width: auto;            /* allow natural width */
-    max-width: 100%;        /* prevent overflow off-screen */
-    background: rgba(2, 1, 43, 0.5);
-    z-index: 999;           /* make sure it sits above other elements */
-}
+  } 
   
   .units-dropdown:hover .dropdown-content {
     display: block;
@@ -643,6 +628,7 @@ min-width: 120px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur
+
 
 
 
