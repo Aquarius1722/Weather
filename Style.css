@@ -550,12 +550,16 @@ input{
     font-size: 12px;
     color: white;
 }
-
+.temp low{
+    margin-left:50px;
+}
 .temps{
     display: flex;
     justify-content: space-between;
     width: 100px;
 }
+
+
 /* HOURLY COLUMN */
 .box{
     justify-content: center;
@@ -629,44 +633,6 @@ min-width: 120px;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur*/
 }*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
