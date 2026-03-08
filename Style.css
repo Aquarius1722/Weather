@@ -326,8 +326,8 @@ button{
     display: none;
     position: absolute;
     top: 100%;              /* directly below button */
-    left: 0;                /* align to left edge */
-    right: auto;            /* prevent right-side clipping */
+    left: auto;                /* align to left edge */
+    right: 0;            /* prevent right-side clipping */
     margin: 0;
     padding: 12px;
     min-width: 220px;
@@ -643,6 +643,7 @@ min-width: 120px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur
+
 
 
 
