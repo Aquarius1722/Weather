@@ -551,7 +551,7 @@ input{
     color: white;
 }
 .temp high{
-    margin-right:500px;
+    margin-left:500px;
 }
 .temps{
     display: flex;
@@ -633,6 +633,7 @@ min-width: 120px;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur*/
 }*/
+
 
 
 
