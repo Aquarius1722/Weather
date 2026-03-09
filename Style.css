@@ -114,7 +114,7 @@
   }
 
   .space {
-    margin-left: auto;
+    margin-left: 80px;
   }
   .box {
     min-width: unset;
@@ -550,9 +550,6 @@ input{
     font-size: 12px;
     color: white;
 }
-.temp low{
-    margin-left:500px;
-}
 .temps{
     display: flex;
     justify-content: space-between;
@@ -581,7 +578,7 @@ input{
     margin: 30px 5px;
 }
 .space{
-    margin-left: auto;
+    margin-left: space;
 }
 .hour span{
     margin-top:10px;
@@ -633,6 +630,7 @@ min-width: 120px;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur*/
 }*/
+
 
 
 
