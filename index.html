@@ -233,18 +233,16 @@
     });
 
 
-
 document.addEventListener("DOMContentLoaded", function() {
   const dropdownBtn = document.querySelector(".dropdown-btn");
   const dropdownContent = document.querySelector(".dropdown-content");
-    
+
   // Toggle dropdown on button click
   dropdownBtn.addEventListener("click", function(event) {
-    event.stopPropagation(); // prevent immediate close
+    event.stopPropagation(); // prevent outside listener from firing
     dropdownContent.classList.toggle("show");
   });
 
-    
   // Close dropdown when clicking outside
   document.addEventListener("click", function(event) {
     if (!dropdownBtn.contains(event.target) && !dropdownContent.contains(event.target)) {
