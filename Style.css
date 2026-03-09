@@ -114,7 +114,7 @@
   }
 
   .space {
-    margin-left: 80px;
+    margin-left: auto;
   }
   .box {
     min-width: unset;
@@ -578,7 +578,7 @@ input{
     margin: 30px 5px;
 }
 .space{
-    margin-left: space;
+    margin-left: 165px;
 }
 .hour span{
     margin-top:10px;
@@ -630,6 +630,7 @@ min-width: 120px;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur*/
 }*/
+
 
 
 
